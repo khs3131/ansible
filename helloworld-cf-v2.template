@@ -49,7 +49,7 @@
                         "ToPort": "22"
                     },
                     {
-                        "CidrIp": "15.165.73.85/32",
+                        "CidrIp": "0.0.0.0/32",
                         "FromPort": "3000",
                         "IpProtocol": "tcp",
                         "ToPort": "3000"
@@ -60,7 +60,7 @@
         },
         "instance": {
             "Properties": {
-                "ImageId": "ami-07464b2b9929898f8",
+                "ImageId": "ami-0f618b9e1a1617258",
                 "InstanceType": "t3.micro",
                 "KeyName": {
                     "Ref": "KeyPair"
